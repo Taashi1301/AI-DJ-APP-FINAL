@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>AI DJ-DISCO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+  
+ 
+</head>
+<body>
+    <center>   
+      <h2 class="btn" id="heading">AI-DJ WEB APP 
+        <br>
+        <span id="note">Note: Volume is controlled by Left wrist, Speed by Right Wrist.</span>
+      </h2>
+      <br>
+      <div class="speeddiv">
+       <img class="discimage" src="https://i.giphy.com/media/SS8zaNFIbwyjcPdh8U/giphy.webp">
+       <br>
+       <h3 class="btn btn-danger" id="speed">Speed</h3>
+      </div>
+      <div class="volumediv">
+        <img class="discimage" src="https://i.giphy.com/media/SS8zaNFIbwyjcPdh8U/giphy.webp">
+        <br>
+        <h3 class="btn btn-warning" id="volume">Volume</h3>
+       </div>
+       <button id="playbtn" class="btn buttons" onclick="play()">Play</button>
+       <button id="stopbtn" class="btn buttons" onclick="stop()">Stop</button>
+    </center>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+body{
+    background-image: url("https://gifimage.net/wp-content/uploads/2017/10/music-equalizer-gif-7.gif");
+    background-position: center;
+    background-size: cover;
+    font-family: 'Do Hyeon', sans-serif;
+    color: whitesmoke;
+}
+#heading{
+    font-size: 25px;
+    letter-spacing: 15px;
+    background-image: radial-gradient(circle, #3a19de, #cc00a8, #ff006c, #ff3f38, #f98a03);
+    margin: 0px;
+    width: 90%;
+    border: 2px solid whitesmoke;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    box-shadow: 20px 20px 20px #FFC75F;
+}
+#note{
+    letter-spacing: normal;
+    font-size: 18px;
+}
+.speeddiv{
+    float: left;
+}
+.discimage{
+    width: 200px;
+    border: 2px solid goldenrod;
+    border-radius: 100px;
+    box-shadow: 5px 5px 5px goldenrod;
+}
+#speed, #volume{
+    font-size: 20px;
+    margin: 10px;
+}
+.volumediv{
+    float: right;
+}
+.buttons{
+    background-color: whitesmoke;
+    color: lime;
+    border: 2px double lime;
+    float: center;
+    margin-top: 5px;
+}
+canvas{
+    border: 2px groove lime;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px whitesmoke;
+    margin-top: 100px; 
+    float: center;
+}
